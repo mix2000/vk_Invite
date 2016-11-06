@@ -20,8 +20,8 @@ foreach ($phonesArray as $key => $phone) {
     $ch = curl_init("http://sms.ru/sms/send");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_TIMEOUT, 30);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, array(
-        "api_id" => "26ae33a9-078a-7574-a59d-89644e621c5c",
+    curl_setopt($ch, CURLOPT_POSTFIELDS, array(/*
+        "api_id" => "26ae33a9-078a-7574-a59d-89644e621c5c",*/
         "to" => "7" . $phone,
         "text" => $text
     ));

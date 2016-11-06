@@ -10,12 +10,11 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
 
-$config['secret_key'] = 'Jm3THEgc4ohprC07c61p'; // ваш секретный ключ приложения
-$config['client_id'] = 5630587; // (обязательно) получить тут https://vk.com/apps?act=manage где ID приложения = client_id
-$config['user_id'] = 9040088; // ваш номер пользователя в вк
-/*$config['group_id'] = 101723005; // ваш номер пользователя в вк*/
-$access_token = ['3afc9e8a8546a842185a711b1ed0aec23d296885d7f5859837c4abf0726fcf1e2069323929abbf76dc340', 'ec5a839532772a9a63da01f6a1eb39a5671aa91fac7181b37c178fc87a93c898dd9a3ddd1c5d931015fa2']; // ваш токен доступа
-$config['scope'] = 'wall,photos,friends,groups,video,offline';  // права доступа
+$config['secret_key'] = 'Jm3THEgc4ohprC07c61p'; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+$config['client_id'] = 5630587; // (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ https://vk.com/apps?act=manage пїЅпїЅпїЅ ID пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ = client_id
+$config['user_id'] = 9040088; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ
+/*$config['group_id'] = 101723005; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ*/
+$config['scope'] = 'wall,photos,friends,groups,video,offline';  // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 require('classes/vk2.php');
 $v = new Vk(
